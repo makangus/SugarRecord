@@ -2,7 +2,7 @@ import Foundation
 import CoreData
 #if os(iOS) || os(tvOS) || os(watchOS)
 
-public class CoreDataObservable<T: NSManagedObject>: RequestObservable<T>, NSFetchedResultsControllerDelegate where T:Equatable {
+public class CoreDataObservable<T: NSManagedObject>: RequestObservable<T>, NSFetchedResultsControllerDelegate {
 
     // MARK: - Attributes
 
